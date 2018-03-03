@@ -1,0 +1,11 @@
+﻿using OpenTK.Graphics.OpenGL4;
+
+namespace GLDemo.GLib.Buffers
+{
+    public static class GLBufferBindings
+    {
+        public static GLBufferBinding ArrayBuffer { get; } = new GLBufferBinding(BufferTarget.ArrayBuffer);
+
+        public static GLBufferBinding ElementArrayBuffer { get; } = new GLBufferBinding(BufferTarget.ElementArrayBuffer);
+    }
+}
