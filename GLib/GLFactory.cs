@@ -1,5 +1,4 @@
-﻿using System;
-using GLib.Buffers;
+﻿using GLib.Buffers;
 using GLib.Shaders;
 using GLib.VAO;
 using JetBrains.Annotations;

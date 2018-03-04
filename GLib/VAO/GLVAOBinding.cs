@@ -1,5 +1,4 @@
-﻿using GLib.Buffers;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using OpenTK.Graphics.OpenGL4;
 
 namespace GLib.VAO

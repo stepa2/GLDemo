@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
-using System.Threading;
 using GLib;
 using GLib.Buffers;
 using GLib.Shaders;
 using GLib.VAO;
-using JetBrains.Annotations;
 using OpenTK;
 using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL4;
