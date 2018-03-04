@@ -2,10 +2,10 @@
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Threading;
-using GLDemo.GLib;
-using GLDemo.GLib.Buffers;
-using GLDemo.GLib.Shaders;
-using GLDemo.GLib.VAO;
+using GLib;
+using GLib.Buffers;
+using GLib.Shaders;
+using GLib.VAO;
 using JetBrains.Annotations;
 using OpenTK;
 using OpenTK.Graphics;

@@ -1,8 +1,8 @@
-﻿using GLDemo.GLib.Buffers;
+﻿using GLib.Buffers;
 using JetBrains.Annotations;
 using OpenTK.Graphics.OpenGL4;
 
-namespace GLDemo.GLib.VAO
+namespace GLib.VAO
 {
     public class GLVertexArrayBinding
     {

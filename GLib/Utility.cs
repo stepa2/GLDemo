@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using OpenTK.Graphics.OpenGL4;
 
-namespace GLDemo.GLib
+namespace GLib
 {
     [PublicAPI]
     public static class Utility

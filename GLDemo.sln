@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLDemo", "GLDemo\GLDemo.csproj", "{61117BB8-46E5-47D0-9A43-550291ABF584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLib", "GLib\GLib.csproj", "{DC2C19DE-904E-440E-9F84-4DCA650AB020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{61117BB8-46E5-47D0-9A43-550291ABF584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61117BB8-46E5-47D0-9A43-550291ABF584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61117BB8-46E5-47D0-9A43-550291ABF584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2C19DE-904E-440E-9F84-4DCA650AB020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2C19DE-904E-440E-9F84-4DCA650AB020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2C19DE-904E-440E-9F84-4DCA650AB020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2C19DE-904E-440E-9F84-4DCA650AB020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

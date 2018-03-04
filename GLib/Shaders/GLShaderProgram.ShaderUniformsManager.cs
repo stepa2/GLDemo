@@ -2,7 +2,7 @@
 using OpenTK;
 using OpenTK.Graphics.OpenGL4;
 
-namespace GLDemo.GLib.Shaders
+namespace GLib.Shaders
 {
     public partial class GLShaderProgram
     {

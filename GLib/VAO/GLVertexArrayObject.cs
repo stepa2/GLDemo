@@ -1,6 +1,6 @@
 ﻿using OpenTK.Graphics.OpenGL4;
 
-namespace GLDemo.GLib.VAO
+namespace GLib.VAO
 {
     public class GLVertexArrayObject:GLHandle
 

@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using OpenTK.Graphics.OpenGL4;
 
-namespace GLDemo.GLib.Buffers {
+namespace GLib.Buffers {
     public class GLBufferBinding
     {
         private readonly BufferTarget _type;

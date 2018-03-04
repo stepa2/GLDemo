@@ -1,7 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 
-namespace GLDemo.GLib {
+namespace GLib {
 
     [PublicAPI]
     public abstract class GLHandle : IDisposable

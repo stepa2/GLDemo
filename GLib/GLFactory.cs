@@ -1,11 +1,11 @@
 ﻿using System;
-using GLDemo.GLib.Buffers;
-using GLDemo.GLib.Shaders;
-using GLDemo.GLib.VAO;
+using GLib.Buffers;
+using GLib.Shaders;
+using GLib.VAO;
 using JetBrains.Annotations;
 using OpenTK.Graphics.OpenGL4;
 
-namespace GLDemo.GLib
+namespace GLib
 {
     public static class GLFactory
     {

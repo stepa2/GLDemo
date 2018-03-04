@@ -1,6 +1,6 @@
 ﻿using OpenTK.Graphics.OpenGL4;
 
-namespace GLDemo.GLib.Buffers
+namespace GLib.Buffers
 {
     public static class GLBufferBindings
     {
