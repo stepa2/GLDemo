@@ -8,7 +8,7 @@ namespace GLib {
     {
         protected internal int Handle { get; }
 
-        public GLHandle(int handle) => Handle = handle;
+        protected GLHandle(int handle) => Handle = handle;
 
         protected abstract void ReleaseUnmanagedResources();
 
