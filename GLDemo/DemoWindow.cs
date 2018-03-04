@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using GLib;
@@ -22,8 +23,10 @@ namespace GLDemo
                 Position = pos;
                 Color = new Vector3(color.R,color.G,color.B);
             }
+            [SuppressMessage("ReSharper", "UnusedAutoPropertyAccessor.Local")]
             public Vector3 Position { get; set; }
 
+            [SuppressMessage("ReSharper", "UnusedAutoPropertyAccessor.Local")]
             public Vector3 Color { get; set; }
         }
 
