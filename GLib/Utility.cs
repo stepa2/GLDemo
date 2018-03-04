@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using OpenTK.Graphics.OpenGL4;
@@ -8,6 +9,14 @@ namespace GLib
     [PublicAPI]
     public static class Utility
     {
+        [Conditional("DEBUG")]
+        public static void CheckForErrorsDebug(
+            [CallerFilePath]   string file   = "",
+            [CallerLineNumber] int    line   = -1,
+            [CallerMemberName] string caller = "")
+            => CheckForErrors($"{caller}@({file}:{line})");
+
+
         public static void CheckForErrors2(
             [CallerFilePath] string file = "", 
             [CallerLineNumber] int line = -1,

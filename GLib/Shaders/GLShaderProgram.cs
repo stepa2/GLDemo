@@ -11,7 +11,6 @@ namespace GLib.Shaders
             Uniforms = new ShaderUniformsManager(this);
         }
 
-        protected override void ReleaseUnmanagedResources() => GL.DeleteProgram(Handle);
         public override string ToString() => $"Shader program #{(uint)Handle}";
 
         [NotNull] public AttachedShadersContainer AttachedShaders { get; }

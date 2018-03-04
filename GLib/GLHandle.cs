@@ -4,22 +4,11 @@ using JetBrains.Annotations;
 namespace GLib {
 
     [PublicAPI]
-    public abstract class GLHandle : IDisposable
+    public abstract class GLHandle
     {
         protected internal int Handle { get; }
 
         protected GLHandle(int handle) => Handle = handle;
 
-        protected abstract void ReleaseUnmanagedResources();
-
-        public void Dispose()
-        {
-            ReleaseUnmanagedResources();
-            GC.SuppressFinalize(this);
-        }
-
-        ~GLHandle() {
-            ReleaseUnmanagedResources();
-        }
     }
 }

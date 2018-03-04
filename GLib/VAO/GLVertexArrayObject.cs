@@ -6,6 +6,5 @@ namespace GLib.VAO
 
     {
         internal GLVertexArrayObject(int handle) : base(handle) { }
-        protected override void ReleaseUnmanagedResources() => GL.DeleteVertexArray(Handle);
     }
 }

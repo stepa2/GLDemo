@@ -11,8 +11,6 @@ namespace GLib.Shaders
 
         public override string ToString() => $"Shader #{(uint)Handle}";
 
-        protected override void ReleaseUnmanagedResources() {GL.DeleteShader(Handle); }
-
         public string Source
         {
             [NotNull] set => GL.ShaderSource(Handle, value);
